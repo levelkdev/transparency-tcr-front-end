@@ -1,5 +1,23 @@
 .home {
-  background: #eee;
+  background: #2e3141;
   padding: 20px;
   text-align: center;
+  color: white;
+  margin: -10px;
+  height: 5000px;
+  font-family: Arial;
+}
+
+.header {
+  margin: 50px;
+  font-size: 24px;	
+}
+
+.list {
+	margin: 30px;
+}
+
+li {
+    padding: 10px;
+    list-style-type : none;
 }
