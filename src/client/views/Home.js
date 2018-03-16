@@ -5,8 +5,8 @@ export default () => {
   return (
     <div className={css.home}>
 
-      <div className={css.header}>TCR List page</div>
-      <div className={css.table}>
+      <div className={css.header}>Transparency TCR List page</div>
+      <div className={css.list}>
       	<hr/>
       	<li>Entry1</li>
       	<hr/>
@@ -18,6 +18,7 @@ export default () => {
       </div>
       <div className={css.header}>
       	<button>VOTE!</button>
+      	<a href="Voting.js">VOTE</a>
       </div>
     </div>
   )
